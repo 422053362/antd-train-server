@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mlearn-server.iml" filepath="$PROJECT_DIR$/mlearn-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/x-mlearn-service/x-mlearn-service.iml" filepath="$PROJECT_DIR$/x-mlearn-service/x-mlearn-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/antd-train-server.iml" filepath="$PROJECT_DIR$/antd-train-server.iml" />
     </modules>
   </component>
 </project>

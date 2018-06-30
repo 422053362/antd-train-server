@@ -219,6 +219,9 @@ public class DenseInstance extends AbstractInstance implements Instance {
     @Override
     public void removeAttributes(Set<Integer> indices) {
         double[] tmp = attributes.clone();
+        if(tmp.length<indices.size()){
+            System.out.println(1);
+        }
         attributes = new double[tmp.length - indices.size()];
         int index = 0;
         for (int i = 0; i < tmp.length; i++) {
